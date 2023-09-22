@@ -1,23 +1,7 @@
-  import http from 'http';
-  const port = 3000;
+Run your server with the node command, specifying the filename with the .js extension:
 
+""node server.js""
 
-  const server = http.createServer(function(req,res){
+Type 
 
-
-  });
-
-  server.listen(port , function(error){
-  if (error)
-
-    {
-
-    console.log('Someting went wrong', error)
-    }
-
-    else 
-    {
-      console.log('Server is listening to ' + port)
-    }
-
-    });
+'http://localhost:3000/greet' on chrome
